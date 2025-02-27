@@ -5,7 +5,7 @@ from tensorflow.keras.preprocessing import image
 from PIL import Image
 
 # Load the trained model
-MODEL_PATH = "acne_classification_model.h5"  # Ensure this file exists
+MODEL_PATH = "model.h5"  # Ensure this file exists
 model = load_model(MODEL_PATH)
 
 # Define class labels
